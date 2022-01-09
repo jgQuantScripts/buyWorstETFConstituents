@@ -1,5 +1,6 @@
 require("httr");require("dplyr");require("purrr");require("data.table");require("rvest");require("quantmod")
 require("pbapply");require("RobinHood");require("rvest");require("IBrokers");require("RQuantLib")
+require("PerformanceAnalytics")
 # require("reticulate")
 ### function to get constituents from barChart
 getConstituents = function(ticker){
